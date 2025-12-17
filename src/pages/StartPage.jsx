@@ -1,16 +1,15 @@
-import Header from "../components/layout/header";
-import PageLayout from "../components/layout/pagelayout";
+import Header from "../components/layout/Header";
+import PageLayout from "../components/layout/PageLayout";
 import Button from "../components/ui/button";
 
-export default function StartPage() {
+export default function StartPage({ onStart }) {
   return (
     <PageLayout>
-      <Header />
-      <p>
-        У таблиці з літерами заховано кілька слів.
-        Знайдіть усі слова на полі 5×5.
-      </p>
-      <Button>Почати гру</Button>
+      <div className="section">
+        <h1>Word Search</h1>
+        <p>Почати гру Word Search</p>
+      </div>
+      <Button onClick={onStart}>Почати гру</Button>
     </PageLayout>
   );
 }

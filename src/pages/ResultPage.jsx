@@ -1,10 +1,14 @@
-import PageLayout from "../components/layout/pagelayout";
+import PageLayout from "../components/layout/PageLayout";
+import Button from "../components/ui/button";
 
-export default function ResultPage() {
+export default function ResultPage({ game, onRestart }) {
   return (
     <PageLayout>
-      <h2>Результати гри</h2>
-      <p>Статистика буде додана пізніше</p>
+      <div className="section">
+        <h2>Результати</h2>
+        <p>Знайдено слів: {game.foundWords.length}</p>
+      </div>
+      <Button onClick={onRestart}>На старт</Button>
     </PageLayout>
   );
 }
