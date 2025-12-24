@@ -1,0 +1,52 @@
+import React from "react";
+import { Link, Outlet, useParams } from "react-router-dom";
+import { useUserStore } from "../store/user.store.js";
+
+export default function AppLayout() {
+  const { userId } = useParams();
+  const nickname = useUserStore((s) => s.nickname);
+
+  return (
+    <div className="min-h-dvh bg-slate-950 text-slate-100">
+      <header className="sticky top-0 z-10 border-b border-slate-800/60 bg-slate-950/80 backdrop-blur">
+        <div className="mx-auto flex max-w-5xl items-center justify-between px-4 py-3">
+          <Link
+            to={`/user/${userId}/start`}
+            className="font-semibold tracking-tight"
+          >
+            Word Search <span className="text-slate-400">5×5</span>
+          </Link>
+          <nav className="flex gap-3 text-sm">
+            <Link
+              className="text-slate-300 hover:text-white"
+              to={`/user/${userId}/settings`}
+            >
+              Налаштування
+            </Link>
+            <Link
+              className="text-slate-300 hover:text-white"
+              to={`/user/${userId}/results`}
+            >
+              Результати
+            </Link>
+          </nav>
+        </div>
+      </header>
+
+      <main className="mx-auto max-w-5xl px-4 py-6">
+        {nickname ? (
+          <p className="mb-4 text-sm text-slate-400">
+            Привіт, <span className="text-slate-200">{nickname}</span> 👋
+          </p>
+        ) : null}
+        <Outlet />
+      </main>
+
+      <footer className="border-t border-slate-800/60">
+        <div className="mx-auto max-w-5xl px-4 py-4 text-xs text-slate-500">
+          Зроблено на React • Form (react-hook-form + yup) • Zustand • Portals
+        </div>
+      </footer>
+    </div>
+  );
+}
