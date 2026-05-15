@@ -1,0 +1,10 @@
+{
+  "source": {
+    "include": ["./src/utils/grid.js", "./src/hooks/useWordSearchGame.js"]
+  },
+  "opts": {
+    "destination": "./docs/jsdoc",
+    "recurse": false
+  },
+  "plugins": []
+}

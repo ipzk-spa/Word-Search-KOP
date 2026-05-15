@@ -43,8 +43,14 @@ export default function AppLayout() {
       </main>
 
       <footer className="border-t border-slate-800/60">
-        <div className="mx-auto max-w-5xl px-4 py-4 text-xs text-slate-500">
-          Зроблено на React • Form (react-hook-form + yup) • Zustand • Portals
+        <div className="mx-auto flex max-w-5xl flex-col gap-2 px-4 py-4 text-xs text-slate-500 sm:flex-row sm:items-center sm:justify-between">
+          <p>Зроблено на React • Form (react-hook-form + yup) • Zustand • Portals</p>
+          <p className="flex flex-wrap gap-3">
+            <Link className="hover:text-slate-300" to="/privacy">
+              Політика конфіденційності
+            </Link>
+            <span className="text-slate-600">Ліцензія: MIT (файл LICENSE у репозиторії)</span>
+          </p>
         </div>
       </footer>
     </div>

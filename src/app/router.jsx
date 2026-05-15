@@ -5,6 +5,7 @@ import StartPage from "../pages/StartPage.jsx";
 import SettingsPage from "../pages/SettingsPage.jsx";
 import GamePage from "../pages/GamePage.jsx";
 import ResultsPage from "../pages/ResultsPage.jsx";
+import PrivacyPolicyPage from "../pages/PrivacyPolicyPage.jsx";
 
 import { useUserStore } from "../store/user.store.js";
 
@@ -17,6 +18,8 @@ export default function AppRouter() {
         path="/"
         element={<Navigate to={`/user/${userId || "guest"}/start`} replace />}
       />
+
+      <Route path="/privacy" element={<PrivacyPolicyPage />} />
 
       <Route element={<AppLayout />}>
         <Route path="/user/:userId/start" element={<StartPage />} />

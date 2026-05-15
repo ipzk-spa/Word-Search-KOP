@@ -55,7 +55,7 @@ export default function ResultsPage() {
               {filtered.length === 0 ? (
                 <tr>
                   <td className="px-3 py-6 text-slate-400" colSpan={6}>
-                    Поки що немає результатів. Зіграй раунд 😉
+                    Поки що немає результатів. Зіграй раунд.
                   </td>
                 </tr>
               ) : (
