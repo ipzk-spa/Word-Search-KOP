@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>JSDoc: Home</title>
+    <title>JSDoc: Source: components/ui/Card.jsx</title>
 
     <script src="scripts/prettify/prettify.js"> </script>
     <script src="scripts/prettify/lang-css.js"> </script>
@@ -17,32 +17,44 @@
 
 <div id="main">
 
-    <h1 class="page-title">Home</h1>
+    <h1 class="page-title">Source: components/ui/Card.jsx</h1>
 
     
 
 
 
     
+    <section>
+        <article>
+            <pre class="prettyprint source linenums"><code>/**
+ * @module components/ui/Card
+ */
 
+import React from "react";
 
-    <h3> </h3>
-
-
-
-
-
-
-
-
-
-
-    
-
-
-
-
-
+/**
+ * Картка секції з опційним заголовком і слотом справа.
+ * @param {Object} props
+ * @param {string} [props.title] Заголовок.
+ * @param {React.ReactNode} props.children Вміст.
+ * @param {React.ReactNode} [props.right] Елемент у правій частині шапки.
+ */
+export default function Card({ title, children, right }) {
+  return (
+    &lt;section className="rounded-2xl border border-slate-800/70 bg-slate-900/40 p-4 shadow-sm">
+      {title ? (
+        &lt;div className="mb-3 flex items-center justify-between gap-3">
+          &lt;h2 className="text-base font-semibold">{title}&lt;/h2>
+          {right}
+        &lt;/div>
+      ) : null}
+      {children}
+    &lt;/section>
+  );
+}
+</code></pre>
+        </article>
+    </section>
 
 
 

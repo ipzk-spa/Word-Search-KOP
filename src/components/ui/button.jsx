@@ -1,5 +1,15 @@
+/**
+ * @module components/ui/Button
+ */
+
 import React from "react";
 
+/**
+ * Кнопка з варіантами оформлення (primary, ghost, danger).
+ * @param {Object} props
+ * @param {"primary"|"ghost"|"danger"} [props.variant="primary"] Стиль кнопки.
+ * @param {string} [props.className] Додаткові CSS-класи.
+ */
 export default function Button({
   variant = "primary",
   className = "",

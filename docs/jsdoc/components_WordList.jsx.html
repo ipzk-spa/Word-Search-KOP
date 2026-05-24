@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>JSDoc: Home</title>
+    <title>JSDoc: Source: components/WordList.jsx</title>
 
     <script src="scripts/prettify/prettify.js"> </script>
     <script src="scripts/prettify/lang-css.js"> </script>
@@ -17,32 +17,58 @@
 
 <div id="main">
 
-    <h1 class="page-title">Home</h1>
+    <h1 class="page-title">Source: components/WordList.jsx</h1>
 
     
 
 
 
     
+    <section>
+        <article>
+            <pre class="prettyprint source linenums"><code>/**
+ * @module components/WordList
+ */
 
+import React from "react";
+import { normalizeWord } from "../utils/grid.js";
 
-    <h3> </h3>
+/**
+ * Список цільових слів із позначкою знайдених.
+ * @param {Object} props
+ * @param {string[]} props.words Слова раунду.
+ * @param {Set&lt;string>} props.found Нормалізовані знайдені слова.
+ */
+export default function WordList({ words, found }) {
+  return (
+    &lt;div className="grid gap-2">
+      {words.map((w) => {
+        const key = normalizeWord(w);
+        const isFound = found.has(key);
 
-
-
-
-
-
-
-
-
-
-    
-
-
-
-
-
+        return (
+          &lt;div
+            key={key}
+            className={[
+              "flex items-center justify-between rounded-xl border px-3 py-2 text-sm",
+              isFound
+                ? "border-emerald-500/40 bg-emerald-500/10 text-emerald-200"
+                : "border-slate-800 bg-slate-900/30 text-slate-200",
+            ].join(" ")}
+          >
+            &lt;span className="font-semibold tracking-wide">{key}&lt;/span>
+            &lt;span className="text-xs opacity-80">
+              {isFound ? "✓ знайдено" : "…"}
+            &lt;/span>
+          &lt;/div>
+        );
+      })}
+    &lt;/div>
+  );
+}
+</code></pre>
+        </article>
+    </section>
 
 
 

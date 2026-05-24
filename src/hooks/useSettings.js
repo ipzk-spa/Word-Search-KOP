@@ -1,5 +1,13 @@
 import { useSettingsStore } from "../store/settings.store.js";
 
+/**
+ * @module hooks/useSettings
+ */
+
+/**
+ * Хук доступу до налаштувань гри з Zustand store.
+ * @returns {{difficulty:string, timeLimitSec:number, highlightFound:boolean, setSettings:Function}}
+ */
 export function useSettings() {
   const difficulty = useSettingsStore((s) => s.difficulty);
   const timeLimitSec = useSettingsStore((s) => s.timeLimitSec);

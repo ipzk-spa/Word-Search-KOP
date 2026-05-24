@@ -1,6 +1,21 @@
+/**
+ * @module components/GameBoard
+ */
+
 import React from "react";
 import { posKey } from "../utils/grid.js";
 
+/**
+ * Інтерактивна сітка літер: виділення слова мишею або дотиком.
+ * @param {Object} props
+ * @param {string[][]} props.board Матриця літер.
+ * @param {Set<string>} props.selectedSet Ключі клітинок поточного виділення.
+ * @param {Set<string>} [props.foundWordPaths] Клітинки вже знайдених слів.
+ * @param {Function} props.onCellDown Початок виділення (`r:c`).
+ * @param {Function} props.onCellEnter Продовження виділення.
+ * @param {Function} props.onBoardUp Завершення виділення.
+ * @param {boolean} [props.highlightFound] Підсвічувати знайдені клітинки.
+ */
 export default function GameBoard({
   board,
   selectedSet,

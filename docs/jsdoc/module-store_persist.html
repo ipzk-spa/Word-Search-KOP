@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>JSDoc: Module: hooks/useWordSearchGame</title>
+    <title>JSDoc: Module: store/persist</title>
 
     <script src="scripts/prettify/prettify.js"> </script>
     <script src="scripts/prettify/lang-css.js"> </script>
@@ -17,7 +17,7 @@
 
 <div id="main">
 
-    <h1 class="page-title">Module: hooks/useWordSearchGame</h1>
+    <h1 class="page-title">Module: store/persist</h1>
 
     
 
@@ -29,6 +29,8 @@
 <header>
     
         
+            
+        
     
 </header>
 
@@ -36,6 +38,84 @@
     <div class="container-overview">
     
         
+            <div class="description">Локальне сховище (localStorage): читання та запис JSON для Zustand store.</div>
+        
+
+        
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="store_persist.js.html">store/persist.js</a>, <a href="store_persist.js.html#line1">line 1</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
         
     
@@ -64,7 +144,7 @@
     
 
     
-    <h4 class="name" id=".useWordSearchGame"><span class="type-signature">(static) </span>useWordSearchGame<span class="signature">(params)</span><span class="type-signature"> &rarr; {Object}</span></h4>
+    <h4 class="name" id=".loadJSON"><span class="type-signature">(static) </span>loadJSON<span class="signature">(key, fallback)</span><span class="type-signature"> &rarr; {*}</span></h4>
     
 
     
@@ -72,7 +152,7 @@
 
 
 <div class="description">
-    Стан гри «пошук слів»: таймер, виділення, перевірка слів.
+    Читає JSON з localStorage.
 </div>
 
 
@@ -108,13 +188,13 @@
 
         <tr>
             
-                <td class="name"><code>params</code></td>
+                <td class="name"><code>key</code></td>
             
 
             <td class="type">
             
                 
-<span class="param-type">Object</span>
+<span class="param-type">string</span>
 
 
             
@@ -124,161 +204,30 @@
 
             
 
-            <td class="description last">
-                <h6>Properties</h6>
-                
-
-<table class="params">
-    <thead>
-    <tr>
-        
-        <th>Name</th>
-        
-
-        <th>Type</th>
-
-        
-        <th>Attributes</th>
-        
-
-        
-
-        <th class="last">Description</th>
-    </tr>
-    </thead>
-
-    <tbody>
-    
-
-        <tr>
-            
-                <td class="name"><code>board</code></td>
-            
-
-            <td class="type">
-            
-                
-<span class="param-type">Array.&lt;Array.&lt;string>></span>
-
-
-            
-            </td>
-
-            
-                <td class="attributes">
-                
-
-                
-
-                
-                </td>
-            
-
-            
-
-            <td class="description last">Сітка літер.</td>
+            <td class="description last">Ключ сховища.</td>
         </tr>
 
     
 
         <tr>
             
-                <td class="name"><code>words</code></td>
+                <td class="name"><code>fallback</code></td>
             
 
             <td class="type">
             
                 
-<span class="param-type">Array.&lt;string></span>
+<span class="param-type">*</span>
 
 
             
             </td>
 
             
-                <td class="attributes">
-                
-
-                
-
-                
-                </td>
-            
 
             
 
-            <td class="description last">Цільові слова.</td>
-        </tr>
-
-    
-
-        <tr>
-            
-                <td class="name"><code>timeLimitSec</code></td>
-            
-
-            <td class="type">
-            
-                
-<span class="param-type">number</span>
-
-
-            
-            </td>
-
-            
-                <td class="attributes">
-                
-
-                
-
-                
-                </td>
-            
-
-            
-
-            <td class="description last">Ліміт у секундах; 0 — без ліміту.</td>
-        </tr>
-
-    
-
-        <tr>
-            
-                <td class="name"><code>onComplete</code></td>
-            
-
-            <td class="type">
-            
-                
-<span class="param-type">function</span>
-
-
-            
-            </td>
-
-            
-                <td class="attributes">
-                
-                    &lt;optional><br>
-                
-
-                
-
-                
-                </td>
-            
-
-            
-
-            <td class="description last">Викликається, коли знайдено всі слова.</td>
-        </tr>
-
-    
-    </tbody>
-</table>
-
-            </td>
+            <td class="description last">Значення за замовчуванням.</td>
         </tr>
 
     
@@ -319,7 +268,7 @@
     
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
-        <a href="hooks_useWordSearchGame.js.html">hooks/useWordSearchGame.js</a>, <a href="hooks_useWordSearchGame.js.html#line22">line 22</a>
+        <a href="store_persist.js.html">store/persist.js</a>, <a href="store_persist.js.html#line12">line 12</a>
     </li></ul></dd>
     
 
@@ -347,10 +296,6 @@
 <h5>Returns:</h5>
 
         
-<div class="param-desc">
-    API хука (status, elapsedMs, found, handlers тощо).
-</div>
-
 
 
 <dl>
@@ -359,13 +304,173 @@
     </dt>
     <dd>
         
-<span class="param-type">Object</span>
+<span class="param-type">*</span>
 
 
     </dd>
 </dl>
 
     
+
+
+
+
+
+        
+            
+
+    
+
+    
+    <h4 class="name" id=".saveJSON"><span class="type-signature">(static) </span>saveJSON<span class="signature">(key, value)</span><span class="type-signature"></span></h4>
+    
+
+    
+
+
+
+<div class="description">
+    Записує JSON у localStorage.
+</div>
+
+
+
+
+
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>key</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">Ключ сховища.</td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>value</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">*</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">Дані для серіалізації.</td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="store_persist.js.html">store/persist.js</a>, <a href="store_persist.js.html#line27">line 27</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

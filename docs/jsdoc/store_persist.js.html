@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>JSDoc: Home</title>
+    <title>JSDoc: Source: store/persist.js</title>
 
     <script src="scripts/prettify/prettify.js"> </script>
     <script src="scripts/prettify/lang-css.js"> </script>
@@ -17,32 +17,51 @@
 
 <div id="main">
 
-    <h1 class="page-title">Home</h1>
+    <h1 class="page-title">Source: store/persist.js</h1>
 
     
 
 
 
     
+    <section>
+        <article>
+            <pre class="prettyprint source linenums"><code>/**
+ * @module store/persist
+ * @description Локальне сховище (localStorage): читання та запис JSON для Zustand store.
+ */
 
+/**
+ * Читає JSON з localStorage.
+ * @param {string} key Ключ сховища.
+ * @param {*} fallback Значення за замовчуванням.
+ * @returns {*}
+ */
+export function loadJSON(key, fallback) {
+  try {
+    const raw = localStorage.getItem(key);
+    if (!raw) return fallback;
+    return JSON.parse(raw);
+  } catch {
+    return fallback;
+  }
+}
 
-    <h3> </h3>
-
-
-
-
-
-
-
-
-
-
-    
-
-
-
-
-
+/**
+ * Записує JSON у localStorage.
+ * @param {string} key Ключ сховища.
+ * @param {*} value Дані для серіалізації.
+ */
+export function saveJSON(key, value) {
+  try {
+    localStorage.setItem(key, JSON.stringify(value));
+  } catch {
+    // ignore
+  }
+}
+</code></pre>
+        </article>
+    </section>
 
 
 

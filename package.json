@@ -12,7 +12,7 @@
     "build-storybook": "storybook build",
     "docs:generate": "jsdoc -c jsdoc.json",
     "docs:serve": "http-server docs/jsdoc -p 8080 -c-1",
-    "licenses:report": "license-checker --production --excludePrivatePackages --json > LICENSE_DEPENDENCIES_REPORT.json && license-checker --production --excludePrivatePackages > LICENSE_DEPENDENCIES_REPORT.txt"
+    "licenses:report": "license-checker --production --excludePrivatePackages --json > LICENSE_DEPENDENCIES_REPORT.json && license-checker --production --excludePrivatePackages > LICENSE_DEPENDENCIES_REPORT.txt && node scripts/normalize-license-paths.mjs"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.4.2",

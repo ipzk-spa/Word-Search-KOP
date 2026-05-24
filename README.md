@@ -48,7 +48,8 @@ npm run dev
 1. Згенеруйте JSDoc: `npm run docs:generate`.
 2. Перегляньте локально: `npm run docs:serve`.
 
-**Посилання на відео з локальною документацією:** https://www.youtube.com/watch?v=U4vcmWJyRmE
+**Відео (локальна документація):** https://www.youtube.com/watch?v=U4vcmWJyRmE  
+На відео показано `npm install`, `npm run docs:generate`, `npm run docs:serve` та перегляд JSDoc на http://localhost:8080.
 
 ## Storybook (2 компоненти)
 
@@ -57,9 +58,6 @@ npm run dev
 
 ## Авторство
 
-- **GitHub-репозиторій для здачі:** _вставте URL свого репо_
-- **ПІБ, група:** _доповніть_
-
-## Репозиторій (приклад)
-
-Якщо проєкт опубліковано на GitHub, замініть посилання у футері застосунку (`AppLayout.jsx`) на актуальне посилання на файл `LICENSE` у вашому репо.
+- **ПІБ:** Степанчук Павло Анатолійович (Stepanchuk Pavlo Anatoliyovych)
+- **Група:** ІПЗк-24-1 (IPZk-24-1)
+- **Репозиторій:** https://github.com/ipzk-spa/Word-Search-KOP

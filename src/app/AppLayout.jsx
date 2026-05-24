@@ -49,7 +49,14 @@ export default function AppLayout() {
             <Link className="hover:text-slate-300" to="/privacy">
               Політика конфіденційності
             </Link>
-            <span className="text-slate-600">Ліцензія: MIT (файл LICENSE у репозиторії)</span>
+            <a
+              className="hover:text-slate-300"
+              href="https://github.com/ipzk-spa/Word-Search-KOP/blob/main/LICENSE"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Ліцензія: MIT
+            </a>
           </p>
         </div>
       </footer>

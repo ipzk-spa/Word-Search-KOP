@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>JSDoc: Module: hooks/useWordSearchGame</title>
+    <title>JSDoc: Module: game/rounds</title>
 
     <script src="scripts/prettify/prettify.js"> </script>
     <script src="scripts/prettify/lang-css.js"> </script>
@@ -17,7 +17,7 @@
 
 <div id="main">
 
-    <h1 class="page-title">Module: hooks/useWordSearchGame</h1>
+    <h1 class="page-title">Module: game/rounds</h1>
 
     
 
@@ -54,6 +54,72 @@
     
 
     
+        <h3 class="subsection-title">Members</h3>
+
+        
+            
+<h4 class="name" id=".ROUNDS"><span class="type-signature">(static, constant) </span>ROUNDS<span class="type-signature"></span></h4>
+
+
+
+
+<div class="description">
+    Набір раундів 5×5: сітка літер і список слів для пошуку.
+</div>
+
+
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="game_rounds.js.html">game/rounds.js</a>, <a href="game_rounds.js.html#line6">line 6</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+        
+    
 
     
         <h3 class="subsection-title">Methods</h3>
@@ -64,7 +130,7 @@
     
 
     
-    <h4 class="name" id=".useWordSearchGame"><span class="type-signature">(static) </span>useWordSearchGame<span class="signature">(params)</span><span class="type-signature"> &rarr; {Object}</span></h4>
+    <h4 class="name" id=".pickRoundByDifficulty"><span class="type-signature">(static) </span>pickRoundByDifficulty<span class="signature">(difficulty, roundIndex<span class="signature-attributes">opt</span>)</span><span class="type-signature"> &rarr; {Object}</span></h4>
     
 
     
@@ -72,7 +138,7 @@
 
 
 <div class="description">
-    Стан гри «пошук слів»: таймер, виділення, перевірка слів.
+    Повертає раунд з урахуванням складності (фільтр за довжиною слів).
 </div>
 
 
@@ -96,52 +162,12 @@
         <th>Type</th>
 
         
-
-        
-
-        <th class="last">Description</th>
-    </tr>
-    </thead>
-
-    <tbody>
-    
-
-        <tr>
-            
-                <td class="name"><code>params</code></td>
-            
-
-            <td class="type">
-            
-                
-<span class="param-type">Object</span>
-
-
-            
-            </td>
-
-            
-
-            
-
-            <td class="description last">
-                <h6>Properties</h6>
-                
-
-<table class="params">
-    <thead>
-    <tr>
-        
-        <th>Name</th>
-        
-
-        <th>Type</th>
-
-        
         <th>Attributes</th>
         
 
         
+        <th>Default</th>
+        
 
         <th class="last">Description</th>
     </tr>
@@ -152,13 +178,19 @@
 
         <tr>
             
-                <td class="name"><code>board</code></td>
+                <td class="name"><code>difficulty</code></td>
             
 
             <td class="type">
             
                 
-<span class="param-type">Array.&lt;Array.&lt;string>></span>
+<span class="param-type">"easy"</span>
+|
+
+<span class="param-type">"medium"</span>
+|
+
+<span class="param-type">"hard"</span>
 
 
             
@@ -175,83 +207,25 @@
             
 
             
-
-            <td class="description last">Сітка літер.</td>
-        </tr>
-
-    
-
-        <tr>
-            
-                <td class="name"><code>words</code></td>
-            
-
-            <td class="type">
-            
-                
-<span class="param-type">Array.&lt;string></span>
-
-
-            
-            </td>
-
-            
-                <td class="attributes">
-                
-
-                
-
+                <td class="default">
                 
                 </td>
             
 
-            
-
-            <td class="description last">Цільові слова.</td>
+            <td class="description last">Рівень складності.</td>
         </tr>
 
     
 
         <tr>
             
-                <td class="name"><code>timeLimitSec</code></td>
+                <td class="name"><code>roundIndex</code></td>
             
 
             <td class="type">
             
                 
 <span class="param-type">number</span>
-
-
-            
-            </td>
-
-            
-                <td class="attributes">
-                
-
-                
-
-                
-                </td>
-            
-
-            
-
-            <td class="description last">Ліміт у секундах; 0 — без ліміту.</td>
-        </tr>
-
-    
-
-        <tr>
-            
-                <td class="name"><code>onComplete</code></td>
-            
-
-            <td class="type">
-            
-                
-<span class="param-type">function</span>
 
 
             
@@ -270,15 +244,14 @@
             
 
             
+                <td class="default">
+                
+                    0
+                
+                </td>
+            
 
-            <td class="description last">Викликається, коли знайдено всі слова.</td>
-        </tr>
-
-    
-    </tbody>
-</table>
-
-            </td>
+            <td class="description last">Індекс раунду (циклічно по ROUNDS).</td>
         </tr>
 
     
@@ -319,7 +292,7 @@
     
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
-        <a href="hooks_useWordSearchGame.js.html">hooks/useWordSearchGame.js</a>, <a href="hooks_useWordSearchGame.js.html#line22">line 22</a>
+        <a href="game_rounds.js.html">game/rounds.js</a>, <a href="game_rounds.js.html#line74">line 74</a>
     </li></ul></dd>
     
 
@@ -347,10 +320,6 @@
 <h5>Returns:</h5>
 
         
-<div class="param-desc">
-    API хука (status, elapsedMs, found, handlers тощо).
-</div>
-
 
 
 <dl>

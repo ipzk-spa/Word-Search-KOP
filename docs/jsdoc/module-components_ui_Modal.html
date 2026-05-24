@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>JSDoc: Module: hooks/useWordSearchGame</title>
+    <title>JSDoc: Module: components/ui/Modal</title>
 
     <script src="scripts/prettify/prettify.js"> </script>
     <script src="scripts/prettify/lang-css.js"> </script>
@@ -17,7 +17,7 @@
 
 <div id="main">
 
-    <h1 class="page-title">Module: hooks/useWordSearchGame</h1>
+    <h1 class="page-title">Module: components/ui/Modal</h1>
 
     
 
@@ -29,6 +29,8 @@
 <header>
     
         
+            
+        
     
 </header>
 
@@ -38,33 +40,12 @@
         
 
         
-    
-    </div>
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-        <h3 class="subsection-title">Methods</h3>
-
-        
             
 
     
 
     
-    <h4 class="name" id=".useWordSearchGame"><span class="type-signature">(static) </span>useWordSearchGame<span class="signature">(params)</span><span class="type-signature"> &rarr; {Object}</span></h4>
+    <h4 class="name" id="module:components/ui/Modal"><span class="type-signature"></span>(require("components/ui/Modal"))<span class="signature">(props)</span><span class="type-signature"></span></h4>
     
 
     
@@ -72,7 +53,7 @@
 
 
 <div class="description">
-    Стан гри «пошук слів»: таймер, виділення, перевірка слів.
+    Модальне вікно через React Portal (`#modal-root`).
 </div>
 
 
@@ -108,7 +89,7 @@
 
         <tr>
             
-                <td class="name"><code>params</code></td>
+                <td class="name"><code>props</code></td>
             
 
             <td class="type">
@@ -152,13 +133,13 @@
 
         <tr>
             
-                <td class="name"><code>board</code></td>
+                <td class="name"><code>open</code></td>
             
 
             <td class="type">
             
                 
-<span class="param-type">Array.&lt;Array.&lt;string>></span>
+<span class="param-type">boolean</span>
 
 
             
@@ -176,20 +157,20 @@
 
             
 
-            <td class="description last">Сітка літер.</td>
+            <td class="description last">Чи відкрито вікно.</td>
         </tr>
 
     
 
         <tr>
             
-                <td class="name"><code>words</code></td>
+                <td class="name"><code>title</code></td>
             
 
             <td class="type">
             
                 
-<span class="param-type">Array.&lt;string></span>
+<span class="param-type">string</span>
 
 
             
@@ -207,20 +188,20 @@
 
             
 
-            <td class="description last">Цільові слова.</td>
+            <td class="description last">Заголовок.</td>
         </tr>
 
     
 
         <tr>
             
-                <td class="name"><code>timeLimitSec</code></td>
+                <td class="name"><code>children</code></td>
             
 
             <td class="type">
             
                 
-<span class="param-type">number</span>
+<span class="param-type">React.ReactNode</span>
 
 
             
@@ -238,14 +219,14 @@
 
             
 
-            <td class="description last">Ліміт у секундах; 0 — без ліміту.</td>
+            <td class="description last">Тіло модалки.</td>
         </tr>
 
     
 
         <tr>
             
-                <td class="name"><code>onComplete</code></td>
+                <td class="name"><code>onClose</code></td>
             
 
             <td class="type">
@@ -271,7 +252,40 @@
 
             
 
-            <td class="description last">Викликається, коли знайдено всі слова.</td>
+            <td class="description last">Закриття (Escape або ✕).</td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>actions</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">React.ReactNode</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+
+            <td class="description last">Кнопки в футері.</td>
         </tr>
 
     
@@ -319,7 +333,7 @@
     
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
-        <a href="hooks_useWordSearchGame.js.html">hooks/useWordSearchGame.js</a>, <a href="hooks_useWordSearchGame.js.html#line22">line 22</a>
+        <a href="components_ui_Modal.jsx.html">components/ui/Modal.jsx</a>, <a href="components_ui_Modal.jsx.html#line18">line 18</a>
     </li></ul></dd>
     
 
@@ -344,34 +358,29 @@
 
 
 
-<h5>Returns:</h5>
+
+
+
+
 
         
-<div class="param-desc">
-    API хука (status, elapsedMs, found, handlers тощо).
-</div>
-
-
-
-<dl>
-    <dt>
-        Type
-    </dt>
-    <dd>
-        
-<span class="param-type">Object</span>
-
-
-    </dd>
-</dl>
+    
+    </div>
 
     
 
+    
 
+    
 
+    
 
+    
 
-        
+    
+
+    
+
     
 
     

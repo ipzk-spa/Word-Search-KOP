@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>JSDoc: Home</title>
+    <title>JSDoc: Source: hooks/useSettings.js</title>
 
     <script src="scripts/prettify/prettify.js"> </script>
     <script src="scripts/prettify/lang-css.js"> </script>
@@ -17,32 +17,36 @@
 
 <div id="main">
 
-    <h1 class="page-title">Home</h1>
+    <h1 class="page-title">Source: hooks/useSettings.js</h1>
 
     
 
 
 
     
+    <section>
+        <article>
+            <pre class="prettyprint source linenums"><code>import { useSettingsStore } from "../store/settings.store.js";
 
+/**
+ * @module hooks/useSettings
+ */
 
-    <h3> </h3>
+/**
+ * Хук доступу до налаштувань гри з Zustand store.
+ * @returns {{difficulty:string, timeLimitSec:number, highlightFound:boolean, setSettings:Function}}
+ */
+export function useSettings() {
+  const difficulty = useSettingsStore((s) => s.difficulty);
+  const timeLimitSec = useSettingsStore((s) => s.timeLimitSec);
+  const highlightFound = useSettingsStore((s) => s.highlightFound);
+  const setSettings = useSettingsStore((s) => s.setSettings);
 
-
-
-
-
-
-
-
-
-
-    
-
-
-
-
-
+  return { difficulty, timeLimitSec, highlightFound, setSettings };
+}
+</code></pre>
+        </article>
+    </section>
 
 
 

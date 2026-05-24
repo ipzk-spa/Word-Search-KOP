@@ -4,83 +4,83 @@
     "repository": "https://github.com/react-hook-form/resolvers",
     "publisher": "bluebill1049",
     "email": "bluebill1049@hotmail.com",
-    "path": "R:\\delevopers\\KOP\\node_modules\\@hookform\\resolvers",
-    "licenseFile": "R:\\delevopers\\KOP\\node_modules\\@hookform\\resolvers\\LICENSE"
+    "path": "node_modules\\@hookform\\resolvers",
+    "licenseFile": "node_modules\\@hookform\\resolvers\\LICENSE"
   },
   "@remix-run/router@1.19.2": {
     "licenses": "MIT",
     "repository": "https://github.com/remix-run/react-router",
     "publisher": "Remix Software",
     "email": "hello@remix.run",
-    "path": "R:\\delevopers\\KOP\\node_modules\\@remix-run\\router",
-    "licenseFile": "R:\\delevopers\\KOP\\node_modules\\@remix-run\\router\\LICENSE.md"
+    "path": "node_modules\\@remix-run\\router",
+    "licenseFile": "node_modules\\@remix-run\\router\\LICENSE.md"
   },
   "@types/debug@4.1.13": {
     "licenses": "MIT",
     "repository": "https://github.com/DefinitelyTyped/DefinitelyTyped",
-    "path": "R:\\delevopers\\KOP\\node_modules\\@types\\debug",
-    "licenseFile": "R:\\delevopers\\KOP\\node_modules\\@types\\debug\\LICENSE"
+    "path": "node_modules\\@types\\debug",
+    "licenseFile": "node_modules\\@types\\debug\\LICENSE"
   },
   "@types/estree-jsx@1.0.5": {
     "licenses": "MIT",
     "repository": "https://github.com/DefinitelyTyped/DefinitelyTyped",
-    "path": "R:\\delevopers\\KOP\\node_modules\\@types\\estree-jsx",
-    "licenseFile": "R:\\delevopers\\KOP\\node_modules\\@types\\estree-jsx\\LICENSE"
+    "path": "node_modules\\@types\\estree-jsx",
+    "licenseFile": "node_modules\\@types\\estree-jsx\\LICENSE"
   },
   "@types/estree@1.0.8": {
     "licenses": "MIT",
     "repository": "https://github.com/DefinitelyTyped/DefinitelyTyped",
-    "path": "R:\\delevopers\\KOP\\node_modules\\@types\\estree",
-    "licenseFile": "R:\\delevopers\\KOP\\node_modules\\@types\\estree\\LICENSE"
+    "path": "node_modules\\@types\\estree",
+    "licenseFile": "node_modules\\@types\\estree\\LICENSE"
   },
   "@types/hast@3.0.4": {
     "licenses": "MIT",
     "repository": "https://github.com/DefinitelyTyped/DefinitelyTyped",
-    "path": "R:\\delevopers\\KOP\\node_modules\\@types\\hast",
-    "licenseFile": "R:\\delevopers\\KOP\\node_modules\\@types\\hast\\LICENSE"
+    "path": "node_modules\\@types\\hast",
+    "licenseFile": "node_modules\\@types\\hast\\LICENSE"
   },
   "@types/mdast@4.0.4": {
     "licenses": "MIT",
     "repository": "https://github.com/DefinitelyTyped/DefinitelyTyped",
-    "path": "R:\\delevopers\\KOP\\node_modules\\@types\\mdast",
-    "licenseFile": "R:\\delevopers\\KOP\\node_modules\\@types\\mdast\\LICENSE"
+    "path": "node_modules\\@types\\mdast",
+    "licenseFile": "node_modules\\@types\\mdast\\LICENSE"
   },
   "@types/ms@2.1.0": {
     "licenses": "MIT",
     "repository": "https://github.com/DefinitelyTyped/DefinitelyTyped",
-    "path": "R:\\delevopers\\KOP\\node_modules\\@types\\ms",
-    "licenseFile": "R:\\delevopers\\KOP\\node_modules\\@types\\ms\\LICENSE"
+    "path": "node_modules\\@types\\ms",
+    "licenseFile": "node_modules\\@types\\ms\\LICENSE"
   },
   "@types/prop-types@15.7.15": {
     "licenses": "MIT",
     "repository": "https://github.com/DefinitelyTyped/DefinitelyTyped",
-    "path": "R:\\delevopers\\KOP\\node_modules\\@types\\prop-types",
-    "licenseFile": "R:\\delevopers\\KOP\\node_modules\\@types\\prop-types\\LICENSE"
+    "path": "node_modules\\@types\\prop-types",
+    "licenseFile": "node_modules\\@types\\prop-types\\LICENSE"
   },
   "@types/react@18.3.27": {
     "licenses": "MIT",
     "repository": "https://github.com/DefinitelyTyped/DefinitelyTyped",
-    "path": "R:\\delevopers\\KOP\\node_modules\\@types\\react",
-    "licenseFile": "R:\\delevopers\\KOP\\node_modules\\@types\\react\\LICENSE"
+    "path": "node_modules\\@types\\react",
+    "licenseFile": "node_modules\\@types\\react\\LICENSE"
   },
   "@types/unist@2.0.11": {
     "licenses": "MIT",
     "repository": "https://github.com/DefinitelyTyped/DefinitelyTyped",
-    "path": "R:\\delevopers\\KOP\\node_modules\\parse-entities\\node_modules\\@types\\unist",
-    "licenseFile": "R:\\delevopers\\KOP\\node_modules\\parse-entities\\node_modules\\@types\\unist\\LICENSE"
+    "path": "node_modules\\parse-entities\\node_modules\\@types\\unist",
+    "licenseFile": "node_modules\\parse-entities\\node_modules\\@types\\unist\\LICENSE"
   },
   "@types/unist@3.0.3": {
     "licenses": "MIT",
     "repository": "https://github.com/DefinitelyTyped/DefinitelyTyped",
-    "path": "R:\\delevopers\\KOP\\node_modules\\@types\\unist",
-    "licenseFile": "R:\\delevopers\\KOP\\node_modules\\@types\\unist\\LICENSE"
+    "path": "node_modules\\@types\\unist",
+    "licenseFile": "node_modules\\@types\\unist\\LICENSE"
   },
   "@ungap/structured-clone@1.3.1": {
     "licenses": "ISC",
     "repository": "https://github.com/ungap/structured-clone",
     "publisher": "Andrea Giammarchi",
-    "path": "R:\\delevopers\\KOP\\node_modules\\@ungap\\structured-clone",
-    "licenseFile": "R:\\delevopers\\KOP\\node_modules\\@ungap\\structured-clone\\LICENSE"
+    "path": "node_modules\\@ungap\\structured-clone",
+    "licenseFile": "node_modules\\@ungap\\structured-clone\\LICENSE"
   },
   "bail@2.0.2": {
     "licenses": "MIT",
@@ -88,8 +88,8 @@
     "publisher": "Titus Wormer",
     "email": "tituswormer@gmail.com",
     "url": "https://wooorm.com",
-    "path": "R:\\delevopers\\KOP\\node_modules\\bail",
-    "licenseFile": "R:\\delevopers\\KOP\\node_modules\\bail\\license"
+    "path": "node_modules\\bail",
+    "licenseFile": "node_modules\\bail\\license"
   },
   "ccount@2.0.1": {
     "licenses": "MIT",
@@ -97,8 +97,8 @@
     "publisher": "Titus Wormer",
     "email": "tituswormer@gmail.com",
     "url": "https://wooorm.com",
-    "path": "R:\\delevopers\\KOP\\node_modules\\ccount",
-    "licenseFile": "R:\\delevopers\\KOP\\node_modules\\ccount\\license"
+    "path": "node_modules\\ccount",
+    "licenseFile": "node_modules\\ccount\\license"
   },
   "character-entities-html4@2.1.0": {
     "licenses": "MIT",
@@ -106,8 +106,8 @@
     "publisher": "Titus Wormer",
     "email": "tituswormer@gmail.com",
     "url": "https://wooorm.com",
-    "path": "R:\\delevopers\\KOP\\node_modules\\character-entities-html4",
-    "licenseFile": "R:\\delevopers\\KOP\\node_modules\\character-entities-html4\\license"
+    "path": "node_modules\\character-entities-html4",
+    "licenseFile": "node_modules\\character-entities-html4\\license"
   },
   "character-entities-legacy@3.0.0": {
     "licenses": "MIT",
@@ -115,8 +115,8 @@
     "publisher": "Titus Wormer",
     "email": "tituswormer@gmail.com",
     "url": "https://wooorm.com",
-    "path": "R:\\delevopers\\KOP\\node_modules\\character-entities-legacy",
-    "licenseFile": "R:\\delevopers\\KOP\\node_modules\\character-entities-legacy\\license"
+    "path": "node_modules\\character-entities-legacy",
+    "licenseFile": "node_modules\\character-entities-legacy\\license"
   },
   "character-entities@2.0.2": {
     "licenses": "MIT",
@@ -124,8 +124,8 @@
     "publisher": "Titus Wormer",
     "email": "tituswormer@gmail.com",
     "url": "https://wooorm.com",
-    "path": "R:\\delevopers\\KOP\\node_modules\\character-entities",
-    "licenseFile": "R:\\delevopers\\KOP\\node_modules\\character-entities\\license"
+    "path": "node_modules\\character-entities",
+    "licenseFile": "node_modules\\character-entities\\license"
   },
   "character-reference-invalid@2.0.1": {
     "licenses": "MIT",
@@ -133,8 +133,8 @@
     "publisher": "Titus Wormer",
     "email": "tituswormer@gmail.com",
     "url": "https://wooorm.com",
-    "path": "R:\\delevopers\\KOP\\node_modules\\character-reference-invalid",
-    "licenseFile": "R:\\delevopers\\KOP\\node_modules\\character-reference-invalid\\license"
+    "path": "node_modules\\character-reference-invalid",
+    "licenseFile": "node_modules\\character-reference-invalid\\license"
   },
   "comma-separated-tokens@2.0.3": {
     "licenses": "MIT",
@@ -142,24 +142,24 @@
     "publisher": "Titus Wormer",
     "email": "tituswormer@gmail.com",
     "url": "https://wooorm.com",
-    "path": "R:\\delevopers\\KOP\\node_modules\\comma-separated-tokens",
-    "licenseFile": "R:\\delevopers\\KOP\\node_modules\\comma-separated-tokens\\license"
+    "path": "node_modules\\comma-separated-tokens",
+    "licenseFile": "node_modules\\comma-separated-tokens\\license"
   },
   "csstype@3.2.3": {
     "licenses": "MIT",
     "repository": "https://github.com/frenic/csstype",
     "publisher": "Fredrik Nicol",
     "email": "fredrik.nicol@gmail.com",
-    "path": "R:\\delevopers\\KOP\\node_modules\\csstype",
-    "licenseFile": "R:\\delevopers\\KOP\\node_modules\\csstype\\LICENSE"
+    "path": "node_modules\\csstype",
+    "licenseFile": "node_modules\\csstype\\LICENSE"
   },
   "debug@4.4.3": {
     "licenses": "MIT",
     "repository": "https://github.com/debug-js/debug",
     "publisher": "Josh Junon",
     "url": "https://github.com/qix-",
-    "path": "R:\\delevopers\\KOP\\node_modules\\debug",
-    "licenseFile": "R:\\delevopers\\KOP\\node_modules\\debug\\LICENSE"
+    "path": "node_modules\\debug",
+    "licenseFile": "node_modules\\debug\\LICENSE"
   },
   "decode-named-character-reference@1.3.0": {
     "licenses": "MIT",
@@ -167,8 +167,8 @@
     "publisher": "Titus Wormer",
     "email": "tituswormer@gmail.com",
     "url": "https://wooorm.com",
-    "path": "R:\\delevopers\\KOP\\node_modules\\decode-named-character-reference",
-    "licenseFile": "R:\\delevopers\\KOP\\node_modules\\decode-named-character-reference\\license"
+    "path": "node_modules\\decode-named-character-reference",
+    "licenseFile": "node_modules\\decode-named-character-reference\\license"
   },
   "dequal@2.0.3": {
     "licenses": "MIT",
@@ -176,8 +176,8 @@
     "publisher": "Luke Edwards",
     "email": "luke.edwards05@gmail.com",
     "url": "https://lukeed.com",
-    "path": "R:\\delevopers\\KOP\\node_modules\\dequal",
-    "licenseFile": "R:\\delevopers\\KOP\\node_modules\\dequal\\license"
+    "path": "node_modules\\dequal",
+    "licenseFile": "node_modules\\dequal\\license"
   },
   "devlop@1.1.0": {
     "licenses": "MIT",
@@ -185,8 +185,8 @@
     "publisher": "Titus Wormer",
     "email": "tituswormer@gmail.com",
     "url": "https://wooorm.com",
-    "path": "R:\\delevopers\\KOP\\node_modules\\devlop",
-    "licenseFile": "R:\\delevopers\\KOP\\node_modules\\devlop\\license"
+    "path": "node_modules\\devlop",
+    "licenseFile": "node_modules\\devlop\\license"
   },
   "estree-util-is-identifier-name@3.0.0": {
     "licenses": "MIT",
@@ -194,8 +194,8 @@
     "publisher": "Titus Wormer",
     "email": "tituswormer@gmail.com",
     "url": "https://wooorm.com",
-    "path": "R:\\delevopers\\KOP\\node_modules\\estree-util-is-identifier-name",
-    "licenseFile": "R:\\delevopers\\KOP\\node_modules\\estree-util-is-identifier-name\\license"
+    "path": "node_modules\\estree-util-is-identifier-name",
+    "licenseFile": "node_modules\\estree-util-is-identifier-name\\license"
   },
   "extend@3.0.2": {
     "licenses": "MIT",
@@ -203,8 +203,8 @@
     "publisher": "Stefan Thomas",
     "email": "justmoon@members.fsf.org",
     "url": "http://www.justmoon.net",
-    "path": "R:\\delevopers\\KOP\\node_modules\\extend",
-    "licenseFile": "R:\\delevopers\\KOP\\node_modules\\extend\\LICENSE"
+    "path": "node_modules\\extend",
+    "licenseFile": "node_modules\\extend\\LICENSE"
   },
   "hast-util-to-jsx-runtime@2.3.6": {
     "licenses": "MIT",
@@ -212,8 +212,8 @@
     "publisher": "Titus Wormer",
     "email": "tituswormer@gmail.com",
     "url": "https://wooorm.com",
-    "path": "R:\\delevopers\\KOP\\node_modules\\hast-util-to-jsx-runtime",
-    "licenseFile": "R:\\delevopers\\KOP\\node_modules\\hast-util-to-jsx-runtime\\license"
+    "path": "node_modules\\hast-util-to-jsx-runtime",
+    "licenseFile": "node_modules\\hast-util-to-jsx-runtime\\license"
   },
   "hast-util-whitespace@3.0.0": {
     "licenses": "MIT",
@@ -221,8 +221,8 @@
     "publisher": "Titus Wormer",
     "email": "tituswormer@gmail.com",
     "url": "https://wooorm.com",
-    "path": "R:\\delevopers\\KOP\\node_modules\\hast-util-whitespace",
-    "licenseFile": "R:\\delevopers\\KOP\\node_modules\\hast-util-whitespace\\license"
+    "path": "node_modules\\hast-util-whitespace",
+    "licenseFile": "node_modules\\hast-util-whitespace\\license"
   },
   "html-url-attributes@3.0.1": {
     "licenses": "MIT",
@@ -230,14 +230,14 @@
     "publisher": "Titus Wormer",
     "email": "tituswormer@gmail.com",
     "url": "https://wooorm.com",
-    "path": "R:\\delevopers\\KOP\\node_modules\\html-url-attributes",
-    "licenseFile": "R:\\delevopers\\KOP\\node_modules\\html-url-attributes\\license"
+    "path": "node_modules\\html-url-attributes",
+    "licenseFile": "node_modules\\html-url-attributes\\license"
   },
   "inline-style-parser@0.2.7": {
     "licenses": "MIT",
     "repository": "https://github.com/remarkablemark/inline-style-parser",
-    "path": "R:\\delevopers\\KOP\\node_modules\\inline-style-parser",
-    "licenseFile": "R:\\delevopers\\KOP\\node_modules\\inline-style-parser\\LICENSE"
+    "path": "node_modules\\inline-style-parser",
+    "licenseFile": "node_modules\\inline-style-parser\\LICENSE"
   },
   "is-alphabetical@2.0.1": {
     "licenses": "MIT",
@@ -245,8 +245,8 @@
     "publisher": "Titus Wormer",
     "email": "tituswormer@gmail.com",
     "url": "https://wooorm.com",
-    "path": "R:\\delevopers\\KOP\\node_modules\\is-alphabetical",
-    "licenseFile": "R:\\delevopers\\KOP\\node_modules\\is-alphabetical\\license"
+    "path": "node_modules\\is-alphabetical",
+    "licenseFile": "node_modules\\is-alphabetical\\license"
   },
   "is-alphanumerical@2.0.1": {
     "licenses": "MIT",
@@ -254,8 +254,8 @@
     "publisher": "Titus Wormer",
     "email": "tituswormer@gmail.com",
     "url": "https://wooorm.com",
-    "path": "R:\\delevopers\\KOP\\node_modules\\is-alphanumerical",
-    "licenseFile": "R:\\delevopers\\KOP\\node_modules\\is-alphanumerical\\license"
+    "path": "node_modules\\is-alphanumerical",
+    "licenseFile": "node_modules\\is-alphanumerical\\license"
   },
   "is-decimal@2.0.1": {
     "licenses": "MIT",
@@ -263,8 +263,8 @@
     "publisher": "Titus Wormer",
     "email": "tituswormer@gmail.com",
     "url": "https://wooorm.com",
-    "path": "R:\\delevopers\\KOP\\node_modules\\is-decimal",
-    "licenseFile": "R:\\delevopers\\KOP\\node_modules\\is-decimal\\license"
+    "path": "node_modules\\is-decimal",
+    "licenseFile": "node_modules\\is-decimal\\license"
   },
   "is-hexadecimal@2.0.1": {
     "licenses": "MIT",
@@ -272,8 +272,8 @@
     "publisher": "Titus Wormer",
     "email": "tituswormer@gmail.com",
     "url": "https://wooorm.com",
-    "path": "R:\\delevopers\\KOP\\node_modules\\is-hexadecimal",
-    "licenseFile": "R:\\delevopers\\KOP\\node_modules\\is-hexadecimal\\license"
+    "path": "node_modules\\is-hexadecimal",
+    "licenseFile": "node_modules\\is-hexadecimal\\license"
   },
   "is-plain-obj@4.1.0": {
     "licenses": "MIT",
@@ -281,15 +281,15 @@
     "publisher": "Sindre Sorhus",
     "email": "sindresorhus@gmail.com",
     "url": "https://sindresorhus.com",
-    "path": "R:\\delevopers\\KOP\\node_modules\\is-plain-obj",
-    "licenseFile": "R:\\delevopers\\KOP\\node_modules\\is-plain-obj\\license"
+    "path": "node_modules\\is-plain-obj",
+    "licenseFile": "node_modules\\is-plain-obj\\license"
   },
   "js-tokens@4.0.0": {
     "licenses": "MIT",
     "repository": "https://github.com/lydell/js-tokens",
     "publisher": "Simon Lydell",
-    "path": "R:\\delevopers\\KOP\\node_modules\\js-tokens",
-    "licenseFile": "R:\\delevopers\\KOP\\node_modules\\js-tokens\\LICENSE"
+    "path": "node_modules\\js-tokens",
+    "licenseFile": "node_modules\\js-tokens\\LICENSE"
   },
   "longest-streak@3.1.0": {
     "licenses": "MIT",
@@ -297,16 +297,16 @@
     "publisher": "Titus Wormer",
     "email": "tituswormer@gmail.com",
     "url": "https://wooorm.com",
-    "path": "R:\\delevopers\\KOP\\node_modules\\longest-streak",
-    "licenseFile": "R:\\delevopers\\KOP\\node_modules\\longest-streak\\license"
+    "path": "node_modules\\longest-streak",
+    "licenseFile": "node_modules\\longest-streak\\license"
   },
   "loose-envify@1.4.0": {
     "licenses": "MIT",
     "repository": "https://github.com/zertosh/loose-envify",
     "publisher": "Andres Suarez",
     "email": "zertosh@gmail.com",
-    "path": "R:\\delevopers\\KOP\\node_modules\\loose-envify",
-    "licenseFile": "R:\\delevopers\\KOP\\node_modules\\loose-envify\\LICENSE"
+    "path": "node_modules\\loose-envify",
+    "licenseFile": "node_modules\\loose-envify\\LICENSE"
   },
   "mdast-util-from-markdown@2.0.3": {
     "licenses": "MIT",
@@ -314,8 +314,8 @@
     "publisher": "Titus Wormer",
     "email": "tituswormer@gmail.com",
     "url": "https://wooorm.com",
-    "path": "R:\\delevopers\\KOP\\node_modules\\mdast-util-from-markdown",
-    "licenseFile": "R:\\delevopers\\KOP\\node_modules\\mdast-util-from-markdown\\license"
+    "path": "node_modules\\mdast-util-from-markdown",
+    "licenseFile": "node_modules\\mdast-util-from-markdown\\license"
   },
   "mdast-util-mdx-expression@2.0.1": {
     "licenses": "MIT",
@@ -323,8 +323,8 @@
     "publisher": "Titus Wormer",
     "email": "tituswormer@gmail.com",
     "url": "https://wooorm.com",
-    "path": "R:\\delevopers\\KOP\\node_modules\\mdast-util-mdx-expression",
-    "licenseFile": "R:\\delevopers\\KOP\\node_modules\\mdast-util-mdx-expression\\license"
+    "path": "node_modules\\mdast-util-mdx-expression",
+    "licenseFile": "node_modules\\mdast-util-mdx-expression\\license"
   },
   "mdast-util-mdx-jsx@3.2.0": {
     "licenses": "MIT",
@@ -332,8 +332,8 @@
     "publisher": "Titus Wormer",
     "email": "tituswormer@gmail.com",
     "url": "https://wooorm.com",
-    "path": "R:\\delevopers\\KOP\\node_modules\\mdast-util-mdx-jsx",
-    "licenseFile": "R:\\delevopers\\KOP\\node_modules\\mdast-util-mdx-jsx\\license"
+    "path": "node_modules\\mdast-util-mdx-jsx",
+    "licenseFile": "node_modules\\mdast-util-mdx-jsx\\license"
   },
   "mdast-util-mdxjs-esm@2.0.1": {
     "licenses": "MIT",
@@ -341,8 +341,8 @@
     "publisher": "Titus Wormer",
     "email": "tituswormer@gmail.com",
     "url": "https://wooorm.com",
-    "path": "R:\\delevopers\\KOP\\node_modules\\mdast-util-mdxjs-esm",
-    "licenseFile": "R:\\delevopers\\KOP\\node_modules\\mdast-util-mdxjs-esm\\license"
+    "path": "node_modules\\mdast-util-mdxjs-esm",
+    "licenseFile": "node_modules\\mdast-util-mdxjs-esm\\license"
   },
   "mdast-util-phrasing@4.1.0": {
     "licenses": "MIT",
@@ -350,8 +350,8 @@
     "publisher": "Victor Felder",
     "email": "victor@draft.li",
     "url": "https://draft.li",
-    "path": "R:\\delevopers\\KOP\\node_modules\\mdast-util-phrasing",
-    "licenseFile": "R:\\delevopers\\KOP\\node_modules\\mdast-util-phrasing\\license"
+    "path": "node_modules\\mdast-util-phrasing",
+    "licenseFile": "node_modules\\mdast-util-phrasing\\license"
   },
   "mdast-util-to-hast@13.2.1": {
     "licenses": "MIT",
@@ -359,8 +359,8 @@
     "publisher": "Titus Wormer",
     "email": "tituswormer@gmail.com",
     "url": "https://wooorm.com",
-    "path": "R:\\delevopers\\KOP\\node_modules\\mdast-util-to-hast",
-    "licenseFile": "R:\\delevopers\\KOP\\node_modules\\mdast-util-to-hast\\license"
+    "path": "node_modules\\mdast-util-to-hast",
+    "licenseFile": "node_modules\\mdast-util-to-hast\\license"
   },
   "mdast-util-to-markdown@2.1.2": {
     "licenses": "MIT",
@@ -368,8 +368,8 @@
     "publisher": "Titus Wormer",
     "email": "tituswormer@gmail.com",
     "url": "https://wooorm.com",
-    "path": "R:\\delevopers\\KOP\\node_modules\\mdast-util-to-markdown",
-    "licenseFile": "R:\\delevopers\\KOP\\node_modules\\mdast-util-to-markdown\\license"
+    "path": "node_modules\\mdast-util-to-markdown",
+    "licenseFile": "node_modules\\mdast-util-to-markdown\\license"
   },
   "mdast-util-to-string@4.0.0": {
     "licenses": "MIT",
@@ -377,8 +377,8 @@
     "publisher": "Titus Wormer",
     "email": "tituswormer@gmail.com",
     "url": "https://wooorm.com",
-    "path": "R:\\delevopers\\KOP\\node_modules\\mdast-util-to-string",
-    "licenseFile": "R:\\delevopers\\KOP\\node_modules\\mdast-util-to-string\\license"
+    "path": "node_modules\\mdast-util-to-string",
+    "licenseFile": "node_modules\\mdast-util-to-string\\license"
   },
   "micromark-core-commonmark@2.0.3": {
     "licenses": "MIT",
@@ -386,8 +386,8 @@
     "publisher": "Titus Wormer",
     "email": "tituswormer@gmail.com",
     "url": "https://wooorm.com",
-    "path": "R:\\delevopers\\KOP\\node_modules\\micromark-core-commonmark",
-    "licenseFile": "R:\\delevopers\\KOP\\node_modules\\micromark-core-commonmark\\license"
+    "path": "node_modules\\micromark-core-commonmark",
+    "licenseFile": "node_modules\\micromark-core-commonmark\\license"
   },
   "micromark-factory-destination@2.0.1": {
     "licenses": "MIT",
@@ -395,8 +395,8 @@
     "publisher": "Titus Wormer",
     "email": "tituswormer@gmail.com",
     "url": "https://wooorm.com",
-    "path": "R:\\delevopers\\KOP\\node_modules\\micromark-factory-destination",
-    "licenseFile": "R:\\delevopers\\KOP\\node_modules\\micromark-factory-destination\\license"
+    "path": "node_modules\\micromark-factory-destination",
+    "licenseFile": "node_modules\\micromark-factory-destination\\license"
   },
   "micromark-factory-label@2.0.1": {
     "licenses": "MIT",
@@ -404,8 +404,8 @@
     "publisher": "Titus Wormer",
     "email": "tituswormer@gmail.com",
     "url": "https://wooorm.com",
-    "path": "R:\\delevopers\\KOP\\node_modules\\micromark-factory-label",
-    "licenseFile": "R:\\delevopers\\KOP\\node_modules\\micromark-factory-label\\license"
+    "path": "node_modules\\micromark-factory-label",
+    "licenseFile": "node_modules\\micromark-factory-label\\license"
   },
   "micromark-factory-space@2.0.1": {
     "licenses": "MIT",
@@ -413,8 +413,8 @@
     "publisher": "Titus Wormer",
     "email": "tituswormer@gmail.com",
     "url": "https://wooorm.com",
-    "path": "R:\\delevopers\\KOP\\node_modules\\micromark-factory-space",
-    "licenseFile": "R:\\delevopers\\KOP\\node_modules\\micromark-factory-space\\license"
+    "path": "node_modules\\micromark-factory-space",
+    "licenseFile": "node_modules\\micromark-factory-space\\license"
   },
   "micromark-factory-title@2.0.1": {
     "licenses": "MIT",
@@ -422,8 +422,8 @@
     "publisher": "Titus Wormer",
     "email": "tituswormer@gmail.com",
     "url": "https://wooorm.com",
-    "path": "R:\\delevopers\\KOP\\node_modules\\micromark-factory-title",
-    "licenseFile": "R:\\delevopers\\KOP\\node_modules\\micromark-factory-title\\license"
+    "path": "node_modules\\micromark-factory-title",
+    "licenseFile": "node_modules\\micromark-factory-title\\license"
   },
   "micromark-factory-whitespace@2.0.1": {
     "licenses": "MIT",
@@ -431,8 +431,8 @@
     "publisher": "Titus Wormer",
     "email": "tituswormer@gmail.com",
     "url": "https://wooorm.com",
-    "path": "R:\\delevopers\\KOP\\node_modules\\micromark-factory-whitespace",
-    "licenseFile": "R:\\delevopers\\KOP\\node_modules\\micromark-factory-whitespace\\license"
+    "path": "node_modules\\micromark-factory-whitespace",
+    "licenseFile": "node_modules\\micromark-factory-whitespace\\license"
   },
   "micromark-util-character@2.1.1": {
     "licenses": "MIT",
@@ -440,8 +440,8 @@
     "publisher": "Titus Wormer",
     "email": "tituswormer@gmail.com",
     "url": "https://wooorm.com",
-    "path": "R:\\delevopers\\KOP\\node_modules\\micromark-util-character",
-    "licenseFile": "R:\\delevopers\\KOP\\node_modules\\micromark-util-character\\license"
+    "path": "node_modules\\micromark-util-character",
+    "licenseFile": "node_modules\\micromark-util-character\\license"
   },
   "micromark-util-chunked@2.0.1": {
     "licenses": "MIT",
@@ -449,8 +449,8 @@
     "publisher": "Titus Wormer",
     "email": "tituswormer@gmail.com",
     "url": "https://wooorm.com",
-    "path": "R:\\delevopers\\KOP\\node_modules\\micromark-util-chunked",
-    "licenseFile": "R:\\delevopers\\KOP\\node_modules\\micromark-util-chunked\\license"
+    "path": "node_modules\\micromark-util-chunked",
+    "licenseFile": "node_modules\\micromark-util-chunked\\license"
   },
   "micromark-util-classify-character@2.0.1": {
     "licenses": "MIT",
@@ -458,8 +458,8 @@
     "publisher": "Titus Wormer",
     "email": "tituswormer@gmail.com",
     "url": "https://wooorm.com",
-    "path": "R:\\delevopers\\KOP\\node_modules\\micromark-util-classify-character",
-    "licenseFile": "R:\\delevopers\\KOP\\node_modules\\micromark-util-classify-character\\license"
+    "path": "node_modules\\micromark-util-classify-character",
+    "licenseFile": "node_modules\\micromark-util-classify-character\\license"
   },
   "micromark-util-combine-extensions@2.0.1": {
     "licenses": "MIT",
@@ -467,8 +467,8 @@
     "publisher": "Titus Wormer",
     "email": "tituswormer@gmail.com",
     "url": "https://wooorm.com",
-    "path": "R:\\delevopers\\KOP\\node_modules\\micromark-util-combine-extensions",
-    "licenseFile": "R:\\delevopers\\KOP\\node_modules\\micromark-util-combine-extensions\\license"
+    "path": "node_modules\\micromark-util-combine-extensions",
+    "licenseFile": "node_modules\\micromark-util-combine-extensions\\license"
   },
   "micromark-util-decode-numeric-character-reference@2.0.2": {
     "licenses": "MIT",
@@ -476,8 +476,8 @@
     "publisher": "Titus Wormer",
     "email": "tituswormer@gmail.com",
     "url": "https://wooorm.com",
-    "path": "R:\\delevopers\\KOP\\node_modules\\micromark-util-decode-numeric-character-reference",
-    "licenseFile": "R:\\delevopers\\KOP\\node_modules\\micromark-util-decode-numeric-character-reference\\license"
+    "path": "node_modules\\micromark-util-decode-numeric-character-reference",
+    "licenseFile": "node_modules\\micromark-util-decode-numeric-character-reference\\license"
   },
   "micromark-util-decode-string@2.0.1": {
     "licenses": "MIT",
@@ -485,8 +485,8 @@
     "publisher": "Titus Wormer",
     "email": "tituswormer@gmail.com",
     "url": "https://wooorm.com",
-    "path": "R:\\delevopers\\KOP\\node_modules\\micromark-util-decode-string",
-    "licenseFile": "R:\\delevopers\\KOP\\node_modules\\micromark-util-decode-string\\license"
+    "path": "node_modules\\micromark-util-decode-string",
+    "licenseFile": "node_modules\\micromark-util-decode-string\\license"
   },
   "micromark-util-encode@2.0.1": {
     "licenses": "MIT",
@@ -494,8 +494,8 @@
     "publisher": "Titus Wormer",
     "email": "tituswormer@gmail.com",
     "url": "https://wooorm.com",
-    "path": "R:\\delevopers\\KOP\\node_modules\\micromark-util-encode",
-    "licenseFile": "R:\\delevopers\\KOP\\node_modules\\micromark-util-encode\\license"
+    "path": "node_modules\\micromark-util-encode",
+    "licenseFile": "node_modules\\micromark-util-encode\\license"
   },
   "micromark-util-html-tag-name@2.0.1": {
     "licenses": "MIT",
@@ -503,8 +503,8 @@
     "publisher": "Titus Wormer",
     "email": "tituswormer@gmail.com",
     "url": "https://wooorm.com",
-    "path": "R:\\delevopers\\KOP\\node_modules\\micromark-util-html-tag-name",
-    "licenseFile": "R:\\delevopers\\KOP\\node_modules\\micromark-util-html-tag-name\\license"
+    "path": "node_modules\\micromark-util-html-tag-name",
+    "licenseFile": "node_modules\\micromark-util-html-tag-name\\license"
   },
   "micromark-util-normalize-identifier@2.0.1": {
     "licenses": "MIT",
@@ -512,8 +512,8 @@
     "publisher": "Titus Wormer",
     "email": "tituswormer@gmail.com",
     "url": "https://wooorm.com",
-    "path": "R:\\delevopers\\KOP\\node_modules\\micromark-util-normalize-identifier",
-    "licenseFile": "R:\\delevopers\\KOP\\node_modules\\micromark-util-normalize-identifier\\license"
+    "path": "node_modules\\micromark-util-normalize-identifier",
+    "licenseFile": "node_modules\\micromark-util-normalize-identifier\\license"
   },
   "micromark-util-resolve-all@2.0.1": {
     "licenses": "MIT",
@@ -521,8 +521,8 @@
     "publisher": "Titus Wormer",
     "email": "tituswormer@gmail.com",
     "url": "https://wooorm.com",
-    "path": "R:\\delevopers\\KOP\\node_modules\\micromark-util-resolve-all",
-    "licenseFile": "R:\\delevopers\\KOP\\node_modules\\micromark-util-resolve-all\\license"
+    "path": "node_modules\\micromark-util-resolve-all",
+    "licenseFile": "node_modules\\micromark-util-resolve-all\\license"
   },
   "micromark-util-sanitize-uri@2.0.1": {
     "licenses": "MIT",
@@ -530,8 +530,8 @@
     "publisher": "Titus Wormer",
     "email": "tituswormer@gmail.com",
     "url": "https://wooorm.com",
-    "path": "R:\\delevopers\\KOP\\node_modules\\micromark-util-sanitize-uri",
-    "licenseFile": "R:\\delevopers\\KOP\\node_modules\\micromark-util-sanitize-uri\\license"
+    "path": "node_modules\\micromark-util-sanitize-uri",
+    "licenseFile": "node_modules\\micromark-util-sanitize-uri\\license"
   },
   "micromark-util-subtokenize@2.1.0": {
     "licenses": "MIT",
@@ -539,8 +539,8 @@
     "publisher": "Titus Wormer",
     "email": "tituswormer@gmail.com",
     "url": "https://wooorm.com",
-    "path": "R:\\delevopers\\KOP\\node_modules\\micromark-util-subtokenize",
-    "licenseFile": "R:\\delevopers\\KOP\\node_modules\\micromark-util-subtokenize\\license"
+    "path": "node_modules\\micromark-util-subtokenize",
+    "licenseFile": "node_modules\\micromark-util-subtokenize\\license"
   },
   "micromark-util-symbol@2.0.1": {
     "licenses": "MIT",
@@ -548,8 +548,8 @@
     "publisher": "Titus Wormer",
     "email": "tituswormer@gmail.com",
     "url": "https://wooorm.com",
-    "path": "R:\\delevopers\\KOP\\node_modules\\micromark-util-symbol",
-    "licenseFile": "R:\\delevopers\\KOP\\node_modules\\micromark-util-symbol\\license"
+    "path": "node_modules\\micromark-util-symbol",
+    "licenseFile": "node_modules\\micromark-util-symbol\\license"
   },
   "micromark-util-types@2.0.2": {
     "licenses": "MIT",
@@ -557,8 +557,8 @@
     "publisher": "Titus Wormer",
     "email": "tituswormer@gmail.com",
     "url": "https://wooorm.com",
-    "path": "R:\\delevopers\\KOP\\node_modules\\micromark-util-types",
-    "licenseFile": "R:\\delevopers\\KOP\\node_modules\\micromark-util-types\\license"
+    "path": "node_modules\\micromark-util-types",
+    "licenseFile": "node_modules\\micromark-util-types\\license"
   },
   "micromark@4.0.2": {
     "licenses": "MIT",
@@ -566,14 +566,14 @@
     "publisher": "Titus Wormer",
     "email": "tituswormer@gmail.com",
     "url": "https://wooorm.com",
-    "path": "R:\\delevopers\\KOP\\node_modules\\micromark",
-    "licenseFile": "R:\\delevopers\\KOP\\node_modules\\micromark\\license"
+    "path": "node_modules\\micromark",
+    "licenseFile": "node_modules\\micromark\\license"
   },
   "ms@2.1.3": {
     "licenses": "MIT",
     "repository": "https://github.com/vercel/ms",
-    "path": "R:\\delevopers\\KOP\\node_modules\\ms",
-    "licenseFile": "R:\\delevopers\\KOP\\node_modules\\ms\\license.md"
+    "path": "node_modules\\ms",
+    "licenseFile": "node_modules\\ms\\license.md"
   },
   "parse-entities@4.0.2": {
     "licenses": "MIT",
@@ -581,15 +581,15 @@
     "publisher": "Titus Wormer",
     "email": "tituswormer@gmail.com",
     "url": "https://wooorm.com",
-    "path": "R:\\delevopers\\KOP\\node_modules\\parse-entities",
-    "licenseFile": "R:\\delevopers\\KOP\\node_modules\\parse-entities\\license"
+    "path": "node_modules\\parse-entities",
+    "licenseFile": "node_modules\\parse-entities\\license"
   },
   "property-expr@2.0.6": {
     "licenses": "MIT",
     "repository": "https://github.com/jquense/expr",
     "publisher": "@monasticpanic Jason Quense",
-    "path": "R:\\delevopers\\KOP\\node_modules\\property-expr",
-    "licenseFile": "R:\\delevopers\\KOP\\node_modules\\property-expr\\LICENSE.txt"
+    "path": "node_modules\\property-expr",
+    "licenseFile": "node_modules\\property-expr\\LICENSE.txt"
   },
   "property-information@7.1.0": {
     "licenses": "MIT",
@@ -597,14 +597,14 @@
     "publisher": "Titus Wormer",
     "email": "tituswormer@gmail.com",
     "url": "https://wooorm.com",
-    "path": "R:\\delevopers\\KOP\\node_modules\\property-information",
-    "licenseFile": "R:\\delevopers\\KOP\\node_modules\\property-information\\license"
+    "path": "node_modules\\property-information",
+    "licenseFile": "node_modules\\property-information\\license"
   },
   "react-dom@18.3.1": {
     "licenses": "MIT",
     "repository": "https://github.com/facebook/react",
-    "path": "R:\\delevopers\\KOP\\node_modules\\react-dom",
-    "licenseFile": "R:\\delevopers\\KOP\\node_modules\\react-dom\\LICENSE"
+    "path": "node_modules\\react-dom",
+    "licenseFile": "node_modules\\react-dom\\LICENSE"
   },
   "react-hook-form@7.69.0": {
     "licenses": "MIT",
@@ -612,38 +612,38 @@
     "publisher": "Beier",
     "email": "bluebill1049@hotmail.com",
     "url": "Bill",
-    "path": "R:\\delevopers\\KOP\\node_modules\\react-hook-form",
-    "licenseFile": "R:\\delevopers\\KOP\\node_modules\\react-hook-form\\LICENSE"
+    "path": "node_modules\\react-hook-form",
+    "licenseFile": "node_modules\\react-hook-form\\LICENSE"
   },
   "react-markdown@10.1.0": {
     "licenses": "MIT",
     "repository": "https://github.com/remarkjs/react-markdown",
     "publisher": "Espen Hovlandsdal",
     "email": "espen@hovlandsdal.com",
-    "path": "R:\\delevopers\\KOP\\node_modules\\react-markdown",
-    "licenseFile": "R:\\delevopers\\KOP\\node_modules\\react-markdown\\license"
+    "path": "node_modules\\react-markdown",
+    "licenseFile": "node_modules\\react-markdown\\license"
   },
   "react-router-dom@6.26.2": {
     "licenses": "MIT",
     "repository": "https://github.com/remix-run/react-router",
     "publisher": "Remix Software",
     "email": "hello@remix.run",
-    "path": "R:\\delevopers\\KOP\\node_modules\\react-router-dom",
-    "licenseFile": "R:\\delevopers\\KOP\\node_modules\\react-router-dom\\LICENSE.md"
+    "path": "node_modules\\react-router-dom",
+    "licenseFile": "node_modules\\react-router-dom\\LICENSE.md"
   },
   "react-router@6.26.2": {
     "licenses": "MIT",
     "repository": "https://github.com/remix-run/react-router",
     "publisher": "Remix Software",
     "email": "hello@remix.run",
-    "path": "R:\\delevopers\\KOP\\node_modules\\react-router",
-    "licenseFile": "R:\\delevopers\\KOP\\node_modules\\react-router\\LICENSE.md"
+    "path": "node_modules\\react-router",
+    "licenseFile": "node_modules\\react-router\\LICENSE.md"
   },
   "react@18.3.1": {
     "licenses": "MIT",
     "repository": "https://github.com/facebook/react",
-    "path": "R:\\delevopers\\KOP\\node_modules\\react",
-    "licenseFile": "R:\\delevopers\\KOP\\node_modules\\react\\LICENSE"
+    "path": "node_modules\\react",
+    "licenseFile": "node_modules\\react\\LICENSE"
   },
   "remark-parse@11.0.0": {
     "licenses": "MIT",
@@ -651,8 +651,8 @@
     "publisher": "Titus Wormer",
     "email": "tituswormer@gmail.com",
     "url": "https://wooorm.com",
-    "path": "R:\\delevopers\\KOP\\node_modules\\remark-parse",
-    "licenseFile": "R:\\delevopers\\KOP\\node_modules\\remark-parse\\license"
+    "path": "node_modules\\remark-parse",
+    "licenseFile": "node_modules\\remark-parse\\license"
   },
   "remark-rehype@11.1.2": {
     "licenses": "MIT",
@@ -660,14 +660,14 @@
     "publisher": "Titus Wormer",
     "email": "tituswormer@gmail.com",
     "url": "https://wooorm.com",
-    "path": "R:\\delevopers\\KOP\\node_modules\\remark-rehype",
-    "licenseFile": "R:\\delevopers\\KOP\\node_modules\\remark-rehype\\license"
+    "path": "node_modules\\remark-rehype",
+    "licenseFile": "node_modules\\remark-rehype\\license"
   },
   "scheduler@0.23.2": {
     "licenses": "MIT",
     "repository": "https://github.com/facebook/react",
-    "path": "R:\\delevopers\\KOP\\node_modules\\scheduler",
-    "licenseFile": "R:\\delevopers\\KOP\\node_modules\\scheduler\\LICENSE"
+    "path": "node_modules\\scheduler",
+    "licenseFile": "node_modules\\scheduler\\LICENSE"
   },
   "space-separated-tokens@2.0.2": {
     "licenses": "MIT",
@@ -675,8 +675,8 @@
     "publisher": "Titus Wormer",
     "email": "tituswormer@gmail.com",
     "url": "https://wooorm.com",
-    "path": "R:\\delevopers\\KOP\\node_modules\\space-separated-tokens",
-    "licenseFile": "R:\\delevopers\\KOP\\node_modules\\space-separated-tokens\\license"
+    "path": "node_modules\\space-separated-tokens",
+    "licenseFile": "node_modules\\space-separated-tokens\\license"
   },
   "stringify-entities@4.0.4": {
     "licenses": "MIT",
@@ -684,39 +684,39 @@
     "publisher": "Titus Wormer",
     "email": "tituswormer@gmail.com",
     "url": "https://wooorm.com",
-    "path": "R:\\delevopers\\KOP\\node_modules\\stringify-entities",
-    "licenseFile": "R:\\delevopers\\KOP\\node_modules\\stringify-entities\\license"
+    "path": "node_modules\\stringify-entities",
+    "licenseFile": "node_modules\\stringify-entities\\license"
   },
   "style-to-js@1.1.21": {
     "licenses": "MIT",
     "repository": "https://github.com/remarkablemark/style-to-js",
     "publisher": "Mark",
     "email": "mark@remarkablemark.org",
-    "path": "R:\\delevopers\\KOP\\node_modules\\style-to-js",
-    "licenseFile": "R:\\delevopers\\KOP\\node_modules\\style-to-js\\LICENSE"
+    "path": "node_modules\\style-to-js",
+    "licenseFile": "node_modules\\style-to-js\\LICENSE"
   },
   "style-to-object@1.0.14": {
     "licenses": "MIT",
     "repository": "https://github.com/remarkablemark/style-to-object",
     "publisher": "Mark",
     "email": "mark@remarkablemark.org",
-    "path": "R:\\delevopers\\KOP\\node_modules\\style-to-object",
-    "licenseFile": "R:\\delevopers\\KOP\\node_modules\\style-to-object\\LICENSE"
+    "path": "node_modules\\style-to-object",
+    "licenseFile": "node_modules\\style-to-object\\LICENSE"
   },
   "tiny-case@1.0.3": {
     "licenses": "MIT",
     "repository": "https://github.com/jquense/tiny-case",
     "publisher": "Jason Quense",
-    "path": "R:\\delevopers\\KOP\\node_modules\\tiny-case",
-    "licenseFile": "R:\\delevopers\\KOP\\node_modules\\tiny-case\\README.md"
+    "path": "node_modules\\tiny-case",
+    "licenseFile": "node_modules\\tiny-case\\README.md"
   },
   "toposort@2.0.2": {
     "licenses": "MIT",
     "repository": "https://github.com/marcelklehr/toposort",
     "publisher": "Marcel Klehr",
     "email": "mklehr@gmx.net",
-    "path": "R:\\delevopers\\KOP\\node_modules\\toposort",
-    "licenseFile": "R:\\delevopers\\KOP\\node_modules\\toposort\\License"
+    "path": "node_modules\\toposort",
+    "licenseFile": "node_modules\\toposort\\License"
   },
   "trim-lines@3.0.1": {
     "licenses": "MIT",
@@ -724,8 +724,8 @@
     "publisher": "Titus Wormer",
     "email": "tituswormer@gmail.com",
     "url": "https://wooorm.com",
-    "path": "R:\\delevopers\\KOP\\node_modules\\trim-lines",
-    "licenseFile": "R:\\delevopers\\KOP\\node_modules\\trim-lines\\license"
+    "path": "node_modules\\trim-lines",
+    "licenseFile": "node_modules\\trim-lines\\license"
   },
   "trough@2.2.0": {
     "licenses": "MIT",
@@ -733,8 +733,8 @@
     "publisher": "Titus Wormer",
     "email": "tituswormer@gmail.com",
     "url": "https://wooorm.com",
-    "path": "R:\\delevopers\\KOP\\node_modules\\trough",
-    "licenseFile": "R:\\delevopers\\KOP\\node_modules\\trough\\license"
+    "path": "node_modules\\trough",
+    "licenseFile": "node_modules\\trough\\license"
   },
   "type-fest@2.19.0": {
     "licenses": "(MIT OR CC0-1.0)",
@@ -742,8 +742,8 @@
     "publisher": "Sindre Sorhus",
     "email": "sindresorhus@gmail.com",
     "url": "https://sindresorhus.com",
-    "path": "R:\\delevopers\\KOP\\node_modules\\type-fest",
-    "licenseFile": "R:\\delevopers\\KOP\\node_modules\\type-fest\\readme.md"
+    "path": "node_modules\\type-fest",
+    "licenseFile": "node_modules\\type-fest\\readme.md"
   },
   "unified@11.0.5": {
     "licenses": "MIT",
@@ -751,8 +751,8 @@
     "publisher": "Titus Wormer",
     "email": "tituswormer@gmail.com",
     "url": "https://wooorm.com",
-    "path": "R:\\delevopers\\KOP\\node_modules\\unified",
-    "licenseFile": "R:\\delevopers\\KOP\\node_modules\\unified\\license"
+    "path": "node_modules\\unified",
+    "licenseFile": "node_modules\\unified\\license"
   },
   "unist-util-is@6.0.1": {
     "licenses": "MIT",
@@ -760,8 +760,8 @@
     "publisher": "Titus Wormer",
     "email": "tituswormer@gmail.com",
     "url": "https://wooorm.com",
-    "path": "R:\\delevopers\\KOP\\node_modules\\unist-util-is",
-    "licenseFile": "R:\\delevopers\\KOP\\node_modules\\unist-util-is\\license"
+    "path": "node_modules\\unist-util-is",
+    "licenseFile": "node_modules\\unist-util-is\\license"
   },
   "unist-util-position@5.0.0": {
     "licenses": "MIT",
@@ -769,8 +769,8 @@
     "publisher": "Titus Wormer",
     "email": "tituswormer@gmail.com",
     "url": "https://wooorm.com",
-    "path": "R:\\delevopers\\KOP\\node_modules\\unist-util-position",
-    "licenseFile": "R:\\delevopers\\KOP\\node_modules\\unist-util-position\\license"
+    "path": "node_modules\\unist-util-position",
+    "licenseFile": "node_modules\\unist-util-position\\license"
   },
   "unist-util-stringify-position@4.0.0": {
     "licenses": "MIT",
@@ -778,8 +778,8 @@
     "publisher": "Titus Wormer",
     "email": "tituswormer@gmail.com",
     "url": "https://wooorm.com",
-    "path": "R:\\delevopers\\KOP\\node_modules\\unist-util-stringify-position",
-    "licenseFile": "R:\\delevopers\\KOP\\node_modules\\unist-util-stringify-position\\license"
+    "path": "node_modules\\unist-util-stringify-position",
+    "licenseFile": "node_modules\\unist-util-stringify-position\\license"
   },
   "unist-util-visit-parents@6.0.2": {
     "licenses": "MIT",
@@ -787,8 +787,8 @@
     "publisher": "Titus Wormer",
     "email": "tituswormer@gmail.com",
     "url": "https://wooorm.com",
-    "path": "R:\\delevopers\\KOP\\node_modules\\unist-util-visit-parents",
-    "licenseFile": "R:\\delevopers\\KOP\\node_modules\\unist-util-visit-parents\\license"
+    "path": "node_modules\\unist-util-visit-parents",
+    "licenseFile": "node_modules\\unist-util-visit-parents\\license"
   },
   "unist-util-visit@5.1.0": {
     "licenses": "MIT",
@@ -796,14 +796,14 @@
     "publisher": "Titus Wormer",
     "email": "tituswormer@gmail.com",
     "url": "https://wooorm.com",
-    "path": "R:\\delevopers\\KOP\\node_modules\\unist-util-visit",
-    "licenseFile": "R:\\delevopers\\KOP\\node_modules\\unist-util-visit\\license"
+    "path": "node_modules\\unist-util-visit",
+    "licenseFile": "node_modules\\unist-util-visit\\license"
   },
   "use-sync-external-store@1.6.0": {
     "licenses": "MIT",
     "repository": "https://github.com/facebook/react",
-    "path": "R:\\delevopers\\KOP\\node_modules\\use-sync-external-store",
-    "licenseFile": "R:\\delevopers\\KOP\\node_modules\\use-sync-external-store\\LICENSE"
+    "path": "node_modules\\use-sync-external-store",
+    "licenseFile": "node_modules\\use-sync-external-store\\LICENSE"
   },
   "vfile-message@4.0.3": {
     "licenses": "MIT",
@@ -811,8 +811,8 @@
     "publisher": "Titus Wormer",
     "email": "tituswormer@gmail.com",
     "url": "https://wooorm.com",
-    "path": "R:\\delevopers\\KOP\\node_modules\\vfile-message",
-    "licenseFile": "R:\\delevopers\\KOP\\node_modules\\vfile-message\\license"
+    "path": "node_modules\\vfile-message",
+    "licenseFile": "node_modules\\vfile-message\\license"
   },
   "vfile@6.0.3": {
     "licenses": "MIT",
@@ -820,22 +820,22 @@
     "publisher": "Titus Wormer",
     "email": "tituswormer@gmail.com",
     "url": "https://wooorm.com",
-    "path": "R:\\delevopers\\KOP\\node_modules\\vfile",
-    "licenseFile": "R:\\delevopers\\KOP\\node_modules\\vfile\\license"
+    "path": "node_modules\\vfile",
+    "licenseFile": "node_modules\\vfile\\license"
   },
   "yup@1.7.1": {
     "licenses": "MIT",
     "repository": "https://github.com/jquense/yup",
     "publisher": "@monasticpanic Jason Quense",
-    "path": "R:\\delevopers\\KOP\\node_modules\\yup",
-    "licenseFile": "R:\\delevopers\\KOP\\node_modules\\yup\\LICENSE.md"
+    "path": "node_modules\\yup",
+    "licenseFile": "node_modules\\yup\\LICENSE.md"
   },
   "zustand@4.5.7": {
     "licenses": "MIT",
     "repository": "https://github.com/pmndrs/zustand",
     "publisher": "Paul Henschel",
-    "path": "R:\\delevopers\\KOP\\node_modules\\zustand",
-    "licenseFile": "R:\\delevopers\\KOP\\node_modules\\zustand\\LICENSE"
+    "path": "node_modules\\zustand",
+    "licenseFile": "node_modules\\zustand\\LICENSE"
   },
   "zwitch@2.0.4": {
     "licenses": "MIT",
@@ -843,8 +843,8 @@
     "publisher": "Titus Wormer",
     "email": "tituswormer@gmail.com",
     "url": "https://wooorm.com",
-    "path": "R:\\delevopers\\KOP\\node_modules\\zwitch",
-    "licenseFile": "R:\\delevopers\\KOP\\node_modules\\zwitch\\license"
+    "path": "node_modules\\zwitch",
+    "licenseFile": "node_modules\\zwitch\\license"
   }
 }
 

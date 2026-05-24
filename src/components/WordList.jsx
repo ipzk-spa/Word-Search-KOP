@@ -1,6 +1,16 @@
+/**
+ * @module components/WordList
+ */
+
 import React from "react";
 import { normalizeWord } from "../utils/grid.js";
 
+/**
+ * Список цільових слів із позначкою знайдених.
+ * @param {Object} props
+ * @param {string[]} props.words Слова раунду.
+ * @param {Set<string>} props.found Нормалізовані знайдені слова.
+ */
 export default function WordList({ words, found }) {
   return (
     <div className="grid gap-2">

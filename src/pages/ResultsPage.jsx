@@ -36,7 +36,7 @@ export default function ResultsPage() {
         }
       >
         <p className="mb-3 text-sm text-slate-300">
-          Перевірка тут: Zustand state + localStorage (історія спроб).
+          Історія спроб зберігається локально (Zustand + localStorage).
         </p>
 
         <div className="overflow-auto rounded-2xl border border-slate-800">

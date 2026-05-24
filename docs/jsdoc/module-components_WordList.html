@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>JSDoc: Module: hooks/useWordSearchGame</title>
+    <title>JSDoc: Module: components/WordList</title>
 
     <script src="scripts/prettify/prettify.js"> </script>
     <script src="scripts/prettify/lang-css.js"> </script>
@@ -17,7 +17,7 @@
 
 <div id="main">
 
-    <h1 class="page-title">Module: hooks/useWordSearchGame</h1>
+    <h1 class="page-title">Module: components/WordList</h1>
 
     
 
@@ -29,6 +29,8 @@
 <header>
     
         
+            
+        
     
 </header>
 
@@ -38,33 +40,12 @@
         
 
         
-    
-    </div>
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-        <h3 class="subsection-title">Methods</h3>
-
-        
             
 
     
 
     
-    <h4 class="name" id=".useWordSearchGame"><span class="type-signature">(static) </span>useWordSearchGame<span class="signature">(params)</span><span class="type-signature"> &rarr; {Object}</span></h4>
+    <h4 class="name" id="module:components/WordList"><span class="type-signature"></span>(require("components/WordList"))<span class="signature">(props)</span><span class="type-signature"></span></h4>
     
 
     
@@ -72,7 +53,7 @@
 
 
 <div class="description">
-    Стан гри «пошук слів»: таймер, виділення, перевірка слів.
+    Список цільових слів із позначкою знайдених.
 </div>
 
 
@@ -108,7 +89,7 @@
 
         <tr>
             
-                <td class="name"><code>params</code></td>
+                <td class="name"><code>props</code></td>
             
 
             <td class="type">
@@ -138,8 +119,6 @@
         <th>Type</th>
 
         
-        <th>Attributes</th>
-        
 
         
 
@@ -148,37 +127,6 @@
     </thead>
 
     <tbody>
-    
-
-        <tr>
-            
-                <td class="name"><code>board</code></td>
-            
-
-            <td class="type">
-            
-                
-<span class="param-type">Array.&lt;Array.&lt;string>></span>
-
-
-            
-            </td>
-
-            
-                <td class="attributes">
-                
-
-                
-
-                
-                </td>
-            
-
-            
-
-            <td class="description last">Сітка літер.</td>
-        </tr>
-
     
 
         <tr>
@@ -196,82 +144,33 @@
             </td>
 
             
-                <td class="attributes">
-                
-
-                
-
-                
-                </td>
-            
 
             
 
-            <td class="description last">Цільові слова.</td>
+            <td class="description last">Слова раунду.</td>
         </tr>
 
     
 
         <tr>
             
-                <td class="name"><code>timeLimitSec</code></td>
+                <td class="name"><code>found</code></td>
             
 
             <td class="type">
             
                 
-<span class="param-type">number</span>
+<span class="param-type">Set.&lt;string></span>
 
 
             
             </td>
 
             
-                <td class="attributes">
-                
-
-                
-
-                
-                </td>
-            
 
             
 
-            <td class="description last">Ліміт у секундах; 0 — без ліміту.</td>
-        </tr>
-
-    
-
-        <tr>
-            
-                <td class="name"><code>onComplete</code></td>
-            
-
-            <td class="type">
-            
-                
-<span class="param-type">function</span>
-
-
-            
-            </td>
-
-            
-                <td class="attributes">
-                
-                    &lt;optional><br>
-                
-
-                
-
-                
-                </td>
-            
-
-            
-
-            <td class="description last">Викликається, коли знайдено всі слова.</td>
+            <td class="description last">Нормалізовані знайдені слова.</td>
         </tr>
 
     
@@ -319,7 +218,7 @@
     
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
-        <a href="hooks_useWordSearchGame.js.html">hooks/useWordSearchGame.js</a>, <a href="hooks_useWordSearchGame.js.html#line22">line 22</a>
+        <a href="components_WordList.jsx.html">components/WordList.jsx</a>, <a href="components_WordList.jsx.html#line14">line 14</a>
     </li></ul></dd>
     
 
@@ -344,34 +243,29 @@
 
 
 
-<h5>Returns:</h5>
+
+
+
+
 
         
-<div class="param-desc">
-    API хука (status, elapsedMs, found, handlers тощо).
-</div>
-
-
-
-<dl>
-    <dt>
-        Type
-    </dt>
-    <dd>
-        
-<span class="param-type">Object</span>
-
-
-    </dd>
-</dl>
+    
+    </div>
 
     
 
+    
 
+    
 
+    
 
+    
 
-        
+    
+
+    
+
     
 
     

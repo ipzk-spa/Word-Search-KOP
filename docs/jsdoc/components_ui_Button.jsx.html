@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>JSDoc: Home</title>
+    <title>JSDoc: Source: components/ui/Button.jsx</title>
 
     <script src="scripts/prettify/prettify.js"> </script>
     <script src="scripts/prettify/lang-css.js"> </script>
@@ -17,32 +17,47 @@
 
 <div id="main">
 
-    <h1 class="page-title">Home</h1>
+    <h1 class="page-title">Source: components/ui/Button.jsx</h1>
 
     
 
 
 
     
+    <section>
+        <article>
+            <pre class="prettyprint source linenums"><code>/**
+ * @module components/ui/Button
+ */
 
+import React from "react";
 
-    <h3> </h3>
+/**
+ * Кнопка з варіантами оформлення (primary, ghost, danger).
+ * @param {Object} props
+ * @param {"primary"|"ghost"|"danger"} [props.variant="primary"] Стиль кнопки.
+ * @param {string} [props.className] Додаткові CSS-класи.
+ */
+export default function Button({
+  variant = "primary",
+  className = "",
+  ...props
+}) {
+  const base =
+    "inline-flex items-center justify-center rounded-xl px-4 py-2 text-sm font-medium transition disabled:cursor-not-allowed disabled:opacity-50";
 
+  const styles =
+    variant === "ghost"
+      ? "bg-transparent hover:bg-slate-800/60 text-slate-100 border border-slate-800"
+      : variant === "danger"
+        ? "bg-rose-600 hover:bg-rose-500 text-white"
+        : "bg-indigo-600 hover:bg-indigo-500 text-white";
 
-
-
-
-
-
-
-
-
-    
-
-
-
-
-
+  return &lt;button className={`${base} ${styles} ${className}`} {...props} />;
+}
+</code></pre>
+        </article>
+    </section>
 
 
 

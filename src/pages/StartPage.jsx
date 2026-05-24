@@ -72,7 +72,7 @@ export default function StartPage() {
             <span className="text-slate-300">User ID</span>
             <input
               className="rounded-xl border border-slate-800 bg-slate-950 px-3 py-2 outline-none focus:border-indigo-500"
-              placeholder="napr. nastya_01"
+              placeholder="наприклад, pavlo_01"
               {...register("userId")}
             />
             {errors.userId ? (
@@ -86,7 +86,7 @@ export default function StartPage() {
             <span className="text-slate-300">Нікнейм</span>
             <input
               className="rounded-xl border border-slate-800 bg-slate-950 px-3 py-2 outline-none focus:border-indigo-500"
-              placeholder="Анастасія"
+              placeholder="Павло"
               {...register("nickname")}
             />
             {errors.nickname ? (

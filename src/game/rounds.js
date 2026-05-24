@@ -1,3 +1,8 @@
+/**
+ * @module game/rounds
+ */
+
+/** Набір раундів 5×5: сітка літер і список слів для пошуку. */
 export const ROUNDS = [
   {
     id: 1,
@@ -60,6 +65,12 @@ export const ROUNDS = [
   },
 ];
 
+/**
+ * Повертає раунд з урахуванням складності (фільтр за довжиною слів).
+ * @param {"easy"|"medium"|"hard"} difficulty Рівень складності.
+ * @param {number} [roundIndex=0] Індекс раунду (циклічно по {@link ROUNDS}).
+ * @returns {{id:number, board:string[][], words:string[]}}
+ */
 export function pickRoundByDifficulty(difficulty, roundIndex = 0) {
   const base = ROUNDS[roundIndex % ROUNDS.length];
   const words = base.words;

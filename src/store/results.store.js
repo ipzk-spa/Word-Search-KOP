@@ -1,3 +1,7 @@
+/**
+ * @module store/results.store
+ */
+
 import { create } from "zustand";
 import { loadJSON, saveJSON } from "./persist.js";
 

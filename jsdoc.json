@@ -1,10 +1,21 @@
 {
   "source": {
-    "include": ["./src/utils/grid.js", "./src/hooks/useWordSearchGame.js"]
+    "include": ["./src"],
+    "exclude": [
+      "./src/stories",
+      "./src/main.jsx",
+      "./src/App.jsx",
+      "./src/app",
+      "./src/pages",
+      "./src/components/legal",
+      "./src/store/user.store.js",
+      "./src/store/settings.store.js",
+      "./src/store/results.store.js"
+    ]
   },
   "opts": {
     "destination": "./docs/jsdoc",
-    "recurse": false
+    "recurse": true
   },
   "plugins": []
 }

@@ -1,7 +1,20 @@
+/**
+ * @module components/ui/Modal
+ */
+
 import React, { useEffect } from "react";
 import { createPortal } from "react-dom";
 import Button from "./Button.jsx";
 
+/**
+ * Модальне вікно через React Portal (`#modal-root`).
+ * @param {Object} props
+ * @param {boolean} props.open Чи відкрито вікно.
+ * @param {string} props.title Заголовок.
+ * @param {React.ReactNode} props.children Тіло модалки.
+ * @param {Function} [props.onClose] Закриття (Escape або ✕).
+ * @param {React.ReactNode} [props.actions] Кнопки в футері.
+ */
 export default function Modal({ open, title, children, onClose, actions }) {
   useEffect(() => {
     function onKey(e) {
